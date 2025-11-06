@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    padding: 0 100px;
+    background-color: #1F2937;
+}
+
+.hero .header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    
+}
+
+.hero .header .title {
+    font-size: 24px;
+}
+
+.hero .header ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    color: lightgray;
+}
+
+.hero .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.hero .content button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    color: white;
+}
+
+.hero .content .main {
+    font-size: 48px;
+    color: white;
+    margin-top: 80px;
+    font-weight: 900;
+}
+
+.hero .content .left {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.hero .content .text {
+    font-size: 18px;
+    color: #9CA3AF;
+}
+
+.hero .img {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    background-color: gray;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.info .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px
+}
+
+.info .boxes {
+    display: flex;
+    gap: 40px;
+}
+
+.info .box-text {
+    font-size: 18px;
+    color: #6B7280;
+    text-align: center;
+    width: 150px;
+}
+
+.info .compartment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+}
+
+.info .box {
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 200px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .quote-text {
+    font-size: 30px;
+    color: #1F2937;
+}
+
+.quote .quote-author {
+    color: #1F2937;
+    margin-top: 20px;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 40px 80px;
+    border-radius: 10px;
+    color: white;
+    justify-content: space-between;
+}
+
+.signup .signup-header {
+    font-weight: bold;
+}
+
+.signup > button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+}
